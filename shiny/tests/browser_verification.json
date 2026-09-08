@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "viewer_release": "R4.3",
+  "analysis_release": "R4",
+  "checked_at": "2026-09-06T21:42:55.981Z",
+  "browser": "149.0.7827.0",
+  "source": "Actual local Shiny application running on R; screenshots are not mockups",
+  "checks": {
+    "unfiltered_counts": [
+      "43,679",
+      "33,414",
+      "4,491",
+      "5,774"
+    ],
+    "selected_row_details_and_plot": true,
+    "empty_plot_hidden_until_selection": true,
+    "BRCA1_V4_filter_count": "200",
+    "selection_cleared_after_filtering": true,
+    "filtered_CSV_download": true,
+    "empty_search_and_reset": true,
+    "per_gene_FANCA_filter": true,
+    "gnomAD_figure_note": true,
+    "responsive_document_widths": [
+      {
+        "viewport": 900,
+        "width": 900
+      },
+      {
+        "viewport": 390,
+        "width": 390
+      }
+    ],
+    "page_errors": []
+  },
+  "public_deployment": "NOT_PERFORMED"
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-07",
+  "repository": "mtarikalay/HBOCpred",
+  "base_package_sha256": "6077b32f318582e5d795fd7361dbf455071d208da63e703c77f771b996110476",
+  "large_input_split": true,
+  "restoration_verified_byte_for_byte": true,
+  "restored_sha256": "ee9e458e376890b2a97da7524f388299820cbe5a45ced2c2cc8002caaa61ad17",
+  "analysis_data_models_predictions_unchanged": true
+}

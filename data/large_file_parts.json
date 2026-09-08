@@ -1,0 +1,18 @@
+{
+  "target": "data/application_all_numeric.csv.gz",
+  "sha256": "ee9e458e376890b2a97da7524f388299820cbe5a45ced2c2cc8002caaa61ad17",
+  "size": 13640764,
+  "parts": [
+    {
+      "path": "data/application_all_numeric.csv.gz.part1",
+      "sha256": "13f2cfcefbde218cb91026b1e35253290f5ec8a83bfd404a9fa642704c9d78a1",
+      "size": 8000000
+    },
+    {
+      "path": "data/application_all_numeric.csv.gz.part2",
+      "sha256": "ad7b501c38d56a2757e930b64ea43d78b712b3210ddfd5799e80b5ea34535bcf",
+      "size": 5640764
+    }
+  ],
+  "reason": "Lossless split for the GitHub connector request-size limit; numerical inputs are unchanged."
+}

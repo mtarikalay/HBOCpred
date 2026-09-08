@@ -1,0 +1,11 @@
+comparator,source_label,rescued,denominator
+REVEL,B/LB,53,1108
+REVEL,LP/P,98,939
+MetaLR,B/LB,205,1108
+MetaLR,LP/P,112,939
+VARITY_R,B/LB,45,804
+VARITY_R,LP/P,60,858
+BayesDel addAF,B/LB,41,1108
+BayesDel addAF,LP/P,77,950
+AlphaMissense,B/LB,40,1109
+AlphaMissense,LP/P,52,908

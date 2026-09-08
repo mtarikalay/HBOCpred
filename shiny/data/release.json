@@ -1,0 +1,14 @@
+{
+  "viewer_release": "R4.3",
+  "analysis_release": "R4",
+  "prepared_date": "2026-09-06",
+  "catalogue_n": 43679,
+  "catalogue_md5": "de0f3a73086dc26ebd18646ab0e2db84",
+  "catalogue_sha256": "551e681000ee705919b625d701c153c14aabf13cc6a0bd9edec6c45b11b73850",
+  "learner_thresholds": {
+    "SVM_RBF": 0.5,
+    "ENET_LR": 0.6896614449814463,
+    "EXTRA_TREES": 0.5904793252373005,
+    "HIST_GB": 0.5
+  }
+}
