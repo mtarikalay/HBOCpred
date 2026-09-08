@@ -7,32 +7,29 @@ summary_data <- jsonlite::read_json(file.path('data','summary.json'),simplifyVec
 gene_audit <- read.csv(file.path('data','per_gene_held_out.csv'),check.names=FALSE)
 genes <- sort(unique(atlas$Gene))
 stopifnot(identical(unname(as.integer(state_counts(atlas))),c(33414L,4491L,5774L,0L)),unname(tools::md5sum(file.path('data','application_catalogue.csv.gz')))==release$catalogue_md5)
-stat_card <- function(label,value,helper=NULL,colour='') div(class=paste('stat-card',colour),div(class='stat-label',label),div(class='stat-value',value),div(class='stat-help',helper))
+stat_card <- function(label,value,helper=NULL,colour='') div(class=paste('metric-card',colour),div(class='metric-value',value),div(class='metric-label',label),div(class='metric-note',helper))
 figure_choices <- c('Internal performance'='Figure2_performance.png','Vote states and model pairs'='Figure3_vstates.png','Per-gene holdouts'='Figure4_per_gene.png','Constituent-score comparisons'='Figure5_comparators.png','Review-status accounting'='Figure6_review_status.png','Distribution shift and gene signal'='Figure7_shift_gene_signal.png','gnomAD candidate eligibility'='FigureS1_gnomAD_eligibility.png','Analysis workflow'='Figure1_workflow.png')
 ui <- fluidPage(
- tags$head(tags$title('HBOCpred | Variant Score Atlas'),tags$meta(name='hbocpred-viewer-release',content=release$viewer_release),tags$link(rel='stylesheet',type='text/css',href='app.css')),
+ tags$head(tags$title('HBOCpred | Variant Score Atlas'),tags$meta(name='hbocpred-viewer-release',content=release$viewer_release),tags$style(HTML(paste(readLines(file.path('www','app.css'),warn=FALSE),collapse='\n')))),
  div(class='app-shell',
-  div(class='hero',
-   div(class='brand-group',div(class='brand-mark',`aria-hidden`='true',tags$span(),tags$span(),tags$span()),
-    div(p(class='eyebrow','Hereditary cancer genomics'),h1('HBOCpred'),p(class='hero-subtitle','Variant Score Atlas'))),
-   div(class='hero-meta',span('43,679 variants'),span('17 genes'),span('GRCh38'))),
+  div(class='app-header',
+   div(class='brand-block',div(class='brand-line',h1('HBOCpred'),span('Variant Score Atlas')),p('Search by gene, HGVS, transcript, SPDI or rsID.')),
+   div(class='research-note','Research use only. Vote states describe model direction, not ACMG/AMP classification. V0 does not establish benignity; S_MAC is a ranking score.')),
   tabsetPanel(id='main_tab',
-   tabPanel('Variant catalogue',value='catalogue',fluidRow(
-    column(3,div(class='well filter-panel',p(class='eyebrow','Explore'),h4('Find variants'),
-     selectInput('gene','Gene',c('All',genes),selectize=FALSE),
-     selectInput('state','Vote state',c('All',paste0('V',0:4),'Incomplete'),selectize=FALSE),
-     selectInput('direction','Vote descriptor',c('All','Unanimous B/LB-directed','Mixed votes','Unanimous LP/P-directed'),selectize=FALSE),
-     textInput('query','Variant search',placeholder='SPDI, HGVS, transcript or rsID'),checkboxInput('rank','Highest S_MAC first',FALSE),
-     div(class='filter-actions',downloadButton('download','Download filtered CSV',class='btn-primary'),actionButton('reset','Reset filters',width='100%')),hr(),
-     p(class='small-note','Search matches the frozen catalogue. A variant outside this catalogue receives no new prediction.'),
-     p(class='small-note muted','Genome assembly: GRCh38. Check transcript relevance before interpretation.'))),
-    column(9,
-     div(class='stat-grid',stat_card('Displayed',textOutput('n'),'Records matching all filters'),stat_card('V0',textOutput('v0'),'Unanimous B/LB-directed','stat-blue'),stat_card('V1–V3',textOutput('mixed'),'Mixed model votes','stat-grey'),stat_card('V4',textOutput('v4'),'Unanimous LP/P-directed','stat-red')),
-     div(class='interpretation',strong('Research interpretation. '),'Vote states describe model direction, not ACMG/AMP classification. V0 does not justify excluding a variant from review. S_MAC is a ranking score, not a clinical risk probability.'),
-     div(class='panel-card',h3('Catalogue'),uiOutput('empty_note'),DTOutput('table'),p(class='small-note muted','Select a row to inspect all four learners. The CSV includes every record matching the sidebar filters.')),
-     div(class='panel-card',h3('Selected variant'),uiOutput('details'),conditionalPanel(condition='input.table_rows_selected && input.table_rows_selected.length === 1',plotOutput('learner_plot',height='285px'),p(class='small-note muted','Diamonds mark the fitted learner thresholds. Colour follows each learner’s vote. Vote order: SVM–RBF, L2 logistic, Extra Trees, HistGB.')))
-    )
-   )),
+   tabPanel('Variant explorer',value='catalogue',
+    div(class='summary-grid',stat_card('Displayed',textOutput('n'),'Variants matching the filters'),stat_card('V0',textOutput('v0'),'Unanimous B/LB-directed'),stat_card('V1–V3',textOutput('mixed'),'Mixed votes'),stat_card('V4',textOutput('v4'),'Unanimous LP/P-directed')),
+    div(class='filter-panel',
+     div(class='filter-heading',div(h2('Variant explorer'),p('Filter the catalogue, select a row and inspect its scores on the right.')),div(class='filter-actions',actionButton('reset','Reset filters'),downloadButton('download','Download filtered CSV',class='btn-download'))),
+     div(class='filter-grid',
+      div(class='filter-item',textInput('query','Gene, HGVS or identifier',placeholder='SPDI, HGVS, transcript or rsID')),
+      div(class='filter-item',selectInput('gene','Gene',c('All',genes),selectize=FALSE)),
+      div(class='filter-item',selectInput('state','Vote state',c('All',paste0('V',0:4),'Incomplete'),selectize=FALSE)),
+      div(class='filter-item',selectInput('direction','Model direction',c('All','Unanimous B/LB-directed','Mixed votes','Unanimous LP/P-directed'),selectize=FALSE)),
+      div(class='filter-item',checkboxInput('rank','Highest S_MAC first',FALSE)))),
+    div(class='workspace-grid',
+     div(class='panel-card results-panel',h3('Search results'),uiOutput('empty_note'),DTOutput('table'),p(class='small-note muted','GRCh38 · 17 genes · 43,679 catalogue variants. Select a row to inspect its four learner votes.')),
+     div(class='detail-column',div(class='detail-card',h3('Selected variant'),uiOutput('details'),conditionalPanel(condition='input.table_rows_selected && input.table_rows_selected.length === 1',plotOutput('learner_plot',height='285px'),p(class='small-note muted','Diamonds mark fitted learner thresholds.')))))
+   ),
    tabPanel('Model audit',value='audit',
     div(class='interpretation','These are internal source-label estimates. They do not establish clinical accuracy for the unresolved catalogue.'),
     div(class='stat-grid',stat_card('Nested CV AUROC',sprintf('%.4f',summary_data$performance$AUROC$mean),'S_MAC; five-repeat mean'),stat_card('Balanced accuracy',sprintf('%.4f',summary_data$performance$balanced_accuracy$mean),'≥3-of-4 secondary endpoint'),stat_card('Evaluable anchors','2,046 / 2,160','114 incomplete in each repeat','stat-grey'),stat_card('Gene holdout AUROC',sprintf('%.4f',summary_data$logo$AUROC),'2,045 evaluable; 17 whole-gene holdouts')),

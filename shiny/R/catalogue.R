@@ -20,7 +20,7 @@ filter_catalogue <- function(x,gene='All',state='All',direction='All',query='',r
  if(length(state) && state!='All') x <- x[x$audit_state==state,,drop=FALSE]
  if(length(direction) && direction!='All') x <- x[!is.na(x$directional_descriptor) & x$directional_descriptor==direction,,drop=FALSE]
  if(length(query) && nzchar(trimws(query))) {
-  cols <- intersect(c('SPDI','Location','HGVSc','HGVSp','Existing_variation','Feature','MANE_SELECT'),names(x));needle <- tolower(trimws(query));hits <- rep(FALSE,nrow(x))
+  cols <- intersect(c('Gene','SPDI','Location','HGVSc','HGVSp','Existing_variation','Feature','MANE_SELECT'),names(x));needle <- tolower(trimws(query));hits <- rep(FALSE,nrow(x))
   for(k in cols) {v <- tolower(x[[k]]);hits <- hits | (!is.na(v) & grepl(needle,v,fixed=TRUE))}
   x <- x[hits,,drop=FALSE]
  }

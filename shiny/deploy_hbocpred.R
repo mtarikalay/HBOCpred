@@ -20,7 +20,7 @@ hboc_preflight <- function(app_dir=.hboc_default) {
  message('Ready: Viewer ',meta$viewer_release,' / analysis ',meta$analysis_release,'; 43,679 records; ',length(files),' application files.')
  invisible(list(app_dir=app_dir,files=files,release=meta))
 }
-deploy_hbocpred <- function(app_dir=.hboc_default,check_only=FALSE) {
+deploy_hbocpred <- function(app_dir=.hboc_default,check_only=FALSE,app_name='HBOCpred_Shiny_R4_4') {
  ready <- hboc_preflight(app_dir)
  if(isTRUE(check_only)) return(invisible(ready))
  accounts <- rsconnect::accounts()
@@ -28,14 +28,16 @@ deploy_hbocpred <- function(app_dir=.hboc_default,check_only=FALSE) {
   stop('The alaymd account is not configured in this R session. In your own RStudio, open Tools > Global Options > Publishing > Connect > ShinyApps.io and connect the existing alaymd account. Then run deploy_hbocpred() again. Do not paste tokens or passwords into chat.')
  }
  apps <- rsconnect::applications(account='alaymd',server='shinyapps.io')
- target <- apps[apps$name=='hbocpred',,drop=FALSE]
- if(nrow(target)!=1L) stop('Expected exactly one existing hbocpred application on alaymd. No new application was created and nothing was overwritten.')
+ if(!app_name %in% c('hbocpred','HBOCpred_Shiny_R4_4')) stop('Choose hbocpred or HBOCpred_Shiny_R4_4.')
+ target <- apps[apps$name==app_name,,drop=FALSE]
+ if(nrow(target)!=1L) stop('Expected exactly one existing ',app_name,' application on alaymd.')
  app_id <- as.character(target$id[[1]])
- message('Updating the existing alaymd/hbocpred application (ID ',app_id,').')
- rsconnect::deployApp(appDir=ready$app_dir,appFiles=ready$files,appId=app_id,appName='hbocpred',
+ if(app_name=='HBOCpred_Shiny_R4_4' && app_id!='17838814') stop('The registered R4.4 application ID does not match 17838814.')
+ message('Updating alaymd/',app_name,' (ID ',app_id,').')
+ rsconnect::deployApp(appDir=ready$app_dir,appFiles=ready$files,appId=app_id,appName=app_name,
   account='alaymd',server='shinyapps.io',appTitle='HBOCpred Variant Score Atlas',
   appMode='shiny',launch.browser=TRUE,logLevel='normal',lint=TRUE)
- message('Deployment command finished. Verify only Variant catalogue and Model audit tabs are shown, with counts 43,679 / 33,414 / 4,491 / 5,774. The About this release tab and version badge have been removed.')
+ message('Deployment command finished. Verify only Variant explorer and Model audit tabs are shown, with counts 43,679 / 33,414 / 4,491 / 5,774. The About this release tab and version badge have been removed.')
  invisible(app_id)
 }
-message('Loaded. Run deploy_hbocpred(check_only=TRUE) to verify locally, or deploy_hbocpred() to update your existing alaymd/hbocpred application.')
+message('Loaded. Run deploy_hbocpred(check_only=TRUE) to verify locally, or deploy_hbocpred() to update alaymd/HBOCpred_Shiny_R4_4 (ID 17838814).')

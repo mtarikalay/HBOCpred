@@ -14,7 +14,7 @@ SEED_DATA=20260723;SEED_MODEL=20260714
 
 def signature():
  h=hashlib.sha256()
- for p in [Path(__file__),Path(__file__).with_name('hbocpred_core.py'),Path(__file__).with_name('legacy_r3_core.py'),DATA/'anchors_all_numeric.csv',DATA/'candidate_features.json']:
+ for p in [Path(__file__),Path(__file__).with_name('hbocpred_core.py'),Path(__file__).with_name('learner_utils.py'),DATA/'anchors_all_numeric.csv',DATA/'candidate_features.json']:
   h.update(p.read_bytes())
  return h.hexdigest()
 
@@ -50,9 +50,9 @@ def build_tasks(stages):
    if r==0 and 'sensitivity' in stages:
     tasks.append(('sensitivity',f'with_RI_f{f+1}',tr,te,SEED_MODEL+f,()))
     tasks.append(('sensitivity',f'without_addAF_AlphaMissense_f{f+1}',tr,te,SEED_MODEL+f,('Reliability_index','BayesDel_addAF_rankscore','am_pathogenicity')))
-    scope=pd.read_csv(ROOT/'audit/transcript_scope_audit.csv').set_index('SPDI')
+    scope=pd.read_csv(ROOT/'data/transcript_scope.csv').set_index('SPDI')
     allowed=d.SPDI.map(scope.any_gene_transcript_missense).fillna(False).to_numpy()
-    tasks.append(('sensitivity',f'current_missense_f{f+1}',tr[allowed[tr]],te[allowed[te]],SEED_MODEL+f,('Reliability_index',)))
+    tasks.append(('sensitivity',f'transcript_subset_f{f+1}',tr[allowed[tr]],te[allowed[te]],SEED_MODEL+f,('Reliability_index',)))
  if 'logo' in stages:
   for i,(tr,te) in enumerate(LeaveOneGroupOut().split(d,d.y,d.Gene)):
    gene=d.Gene.iloc[te[0]];tasks.append(('logo',f'logo_{gene}',tr,te,SEED_MODEL+10000+i,('Reliability_index',)))
@@ -61,6 +61,7 @@ def build_tasks(stages):
  return tasks
 
 def main():
+ OUT.mkdir(exist_ok=True);MOD.mkdir(exist_ok=True)
  p=argparse.ArgumentParser();p.add_argument('--jobs',type=int,default=6);p.add_argument('--stages',nargs='+',default=['cv','logo','deployment','sensitivity']);p.add_argument('--limit',type=int);a=p.parse_args()
  tasks=build_tasks(a.stages)
  if a.limit:tasks=tasks[:a.limit]

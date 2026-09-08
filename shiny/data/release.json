@@ -1,14 +1,15 @@
 {
-  "viewer_release": "R4.3",
+  "viewer_release": "R4.5",
   "analysis_release": "R4",
-  "prepared_date": "2026-09-06",
+  "prepared_date": "2026-09-08",
   "catalogue_n": 43679,
-  "catalogue_md5": "de0f3a73086dc26ebd18646ab0e2db84",
-  "catalogue_sha256": "551e681000ee705919b625d701c153c14aabf13cc6a0bd9edec6c45b11b73850",
+  "catalogue_md5": "5c81a27e2118d50ffa66c30080a6f37b",
+  "catalogue_sha256": "bf2b4ce7445a575813c0230dddaf5ab9291c7c3f5c014f1b61fe2a49dc75aa63",
   "learner_thresholds": {
     "SVM_RBF": 0.5,
     "ENET_LR": 0.6896614449814463,
     "EXTRA_TREES": 0.5904793252373005,
     "HIST_GB": 0.5
-  }
+  },
+  "catalogue_columns_note": "Source annotations and all model outputs retained. Unused predictor columns are distributed in data/."
 }

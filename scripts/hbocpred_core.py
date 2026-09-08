@@ -10,7 +10,7 @@ import numpy as np,pandas as pd
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import StratifiedKFold
-from legacy_r3_core import (LEARNERS,FAMILY,GRIDS as OLD_GRIDS,N_FEATURES,EPS,
+from learner_utils import (LEARNERS,FAMILY,GRIDS as OLD_GRIDS,N_FEATURES,EPS,
  _seed_from,make_learner,raw_score,to_logit_input,platt_fit,platt_apply,
  ba_threshold,stratum_key,consensus_rank,binary_metrics,continuous_metrics,wilson)
 GRIDS={**OLD_GRIDS,'ENET_LR':[{'C':c,'l1_ratio':0.0} for c in (0.03,0.1,0.3,1.0,3.0,10.0)]}

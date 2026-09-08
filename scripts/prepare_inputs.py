@@ -25,6 +25,7 @@ def numeric(d,cols):
  x=d[cols].map(parse);x['SpliceAI_DS_max']=x[DS].max(axis=1)
  return x.drop(columns=DS+DP)
 def main(training,vous):
+ for name in ['data','audit']:(ROOT/name).mkdir(parents=True,exist_ok=True)
  d=pd.read_excel(training);a=d[d.Gene.isin(GENES)&d.ACMG_variations.isin(['LP','LB'])].reset_index(drop=True)
  cols=[c for c in a if c not in IDS and not c.endswith('_pred') and c!='EVE_CLASS']
  x=numeric(a,cols);meta=a[['SPDI','Location','Gene','ACMG_variations','clinvar_id','clinvar_hgvs','clinvar_clnsig','clinvar_review']].copy();meta['y']=(a.ACMG_variations=='LP').astype(int)

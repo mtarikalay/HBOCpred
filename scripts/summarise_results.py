@@ -52,10 +52,10 @@ for gene in GENES:
 G=pd.DataFrame(rows);G.to_csv(TAB/'per_gene_held_out.csv',index=False);summary['per_gene']=G.to_dict('records')
 # Sensitivity analyses are paired on exactly the primary repeat-1 fold map.
 sens=[dict(analysis='Primary, repeat 1',**metrics(F))]
-for pattern,name in [('with_RI_f*_predictions.csv','Reliability_index included'),('without_addAF_AlphaMissense_f*_predictions.csv','BayesDel addAF and AlphaMissense excluded'),('current_missense_f*_predictions.csv','Current transcript missense subset, refitted')]:
+for pattern,name in [('with_RI_f*_predictions.csv','Reliability_index included'),('without_addAF_AlphaMissense_f*_predictions.csv','BayesDel addAF and AlphaMissense excluded'),('transcript_subset_f*_predictions.csv','Transcript missense subset, refitted')]:
  p=combine(pattern,5);p.to_csv(OUT/(pattern.split('_f')[0]+'_oof.csv'),index=False);sens.append(dict(analysis=name,**metrics(p)))
-# Primary predictions restricted to the same current-missense subset, to show population versus refitting effects.
-scope=pd.read_csv(ROOT/'audit/transcript_scope_audit.csv');ids=set(scope.loc[scope.any_gene_transcript_missense,'SPDI']);sens.append(dict(analysis='Primary predictions in current-missense subset',**metrics(F[F.SPDI.isin(ids)])))
+# Primary predictions restricted to the same transcript missense subset, to show population versus refitting effects.
+scope=pd.read_csv(ROOT/'data/transcript_scope.csv');ids=set(scope.loc[scope.any_gene_transcript_missense,'SPDI']);sens.append(dict(analysis='Primary predictions in transcript missense subset',**metrics(F[F.SPDI.isin(ids)])))
 S=pd.DataFrame(sens);S.to_csv(TAB/'sensitivity_analyses.csv',index=False);summary['sensitivities']=S.to_dict('records')
 # Deployment and panel-selection frequency.
 obj=joblib.load(MOD/'deployment.joblib');panel=obj['panel'];freq=pd.Series([c for f in sorted(MOD.glob('cv_r*f*.joblib')) for c in joblib.load(f)['panel']]).value_counts()

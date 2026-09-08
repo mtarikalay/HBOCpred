@@ -104,7 +104,7 @@ for i,v in enumerate(vals):ax[1].text(i,v+2,f'{v:.1f}%',ha='center',fontweight='
 ax[1].set(ylim=(0,104),ylabel='Out-of-fold gene-identification accuracy (%)');title(ax[1],'B  Gene signal in the feature vector')
 save(fig,'Figure7_shift_gene_signal')
 # Supplementary population-control eligibility: alternate transcripts are retained explicitly.
-d=pd.read_csv(ROOT/'audit/gnomAD_candidates.csv');fig,ax=plt.subplots(1,2,figsize=(8.4,5.2),layout='constrained');genes=list(g.Gene);dis=[]
+d=pd.read_csv(ROOT/'data/gnomAD_candidates.csv');fig,ax=plt.subplots(1,2,figsize=(8.4,5.2),layout='constrained');genes=list(g.Gene);dis=[]
 for gene in genes:
  q=d[d.gene==gene];dis.append([int(q.in_any_training_record.sum()),int((~q.in_any_training_record&q.in_full_VOUS_archive).sum()),int((~q.in_any_training_record&~q.in_full_VOUS_archive).sum())])
 dis=np.array(dis);left=np.zeros(len(genes))

@@ -1,8 +1,7 @@
 __pycache__/
 *.pyc
-.venv/
-*.tmp
-
-# Recreated byte-for-byte by scripts/assemble_large_files.py
+.Rhistory
+.RData
+rsconnect/
 /data/application_all_numeric.csv.gz
 *.assembling
