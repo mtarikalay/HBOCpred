@@ -1,0 +1,22 @@
+{
+  "stable_analysis_figure_id_to_final_main_figure": {
+    "1": 8,
+    "2": 1,
+    "3": 2,
+    "4": 3,
+    "5": 4,
+    "6": 5,
+    "7": 6
+  },
+  "old_main_table_to_final_main_table": {
+    "1": 6,
+    "2": 7,
+    "3": 1,
+    "4": 2,
+    "5": 3,
+    "6": 4,
+    "7": 5
+  },
+  "new_main_figure_7": "Figure7_Shiny_catalogue.png",
+  "reviewer_quotations_keep_original_numbers": true
+}

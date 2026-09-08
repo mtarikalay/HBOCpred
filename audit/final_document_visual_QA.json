@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-07",
+  "method": "Three updated documents rendered with LibreOffice. All changed body pages visually inspected. Other pages compared pixel-wise with the previously reviewed revision9 render; page-count headers checked. Unchanged supplementary document retains prior QA.",
+  "documents": [
+    {
+      "file": "documentation/HBOCpred_IJMS_Reviewer1_Round2_clean.docx",
+      "sha256": "7762d7c5d926f65bcdef8073de7bc305f80c88345a21d4cbc9aac0a83d878d54",
+      "pages": 25,
+      "pixel_identical_to_previously_reviewed_revision9_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11,
+        13,
+        17,
+        19,
+        20,
+        21,
+        25
+      ],
+      "body_pixel_identical_header_checked": [],
+      "changed_body_pages_visually_inspected": [
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18,
+        22,
+        23,
+        24
+      ],
+      "clipping_overlap_missing_figures": false
+    },
+    {
+      "file": "documentation/HBOCpred_IJMS_Reviewer1_Round2_highlighted.docx",
+      "sha256": "cd4989cd085a5e96852bf0bd43c03c3094a9c7037f6dff6c1ffb2a8cadde70c8",
+      "pages": 25,
+      "pixel_identical_to_previously_reviewed_revision9_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11,
+        13,
+        17,
+        19,
+        20,
+        21
+      ],
+      "body_pixel_identical_header_checked": [],
+      "changed_body_pages_visually_inspected": [
+        8,
+        9,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18,
+        22,
+        23,
+        24,
+        25
+      ],
+      "clipping_overlap_missing_figures": false
+    },
+    {
+      "file": "documentation/HBOCpred_Response_Reviewer1_Round2.docx",
+      "sha256": "c1bd4f6763d235e29d0bb170fce3dfad056478be64e792a799c0405968be6daa",
+      "pages": 7,
+      "pixel_identical_to_previously_reviewed_revision9_pages": [
+        1,
+        2
+      ],
+      "body_pixel_identical_header_checked": [],
+      "changed_body_pages_visually_inspected": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "clipping_overlap_missing_figures": false
+    },
+    {
+      "file": "documentation/HBOCpred_Supplementary_Audits_TRIPODAI.docx",
+      "sha256": "fa8ed160e7b041dcb27b4f1af710074010db52ddcceed22ec2af69f9167ee3ca",
+      "pages": 4,
+      "unchanged_document_retains_previous_full_visual_QA": true
+    }
+  ],
+  "clean_highlighted_rendered_text_identical": true,
+  "remaining_submission_items": "documentation/SON_KONTROL_TR.md"
+}

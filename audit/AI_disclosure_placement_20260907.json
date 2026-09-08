@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-07",
+  "source": "https://www.mdpi.com/about/announcements/5687",
+  "journal_instructions": "https://www.mdpi.com/journal/ijms/instructions",
+  "implemented": "Methods subsection 4.10 with Acknowledgments cross-reference",
+  "mandatory_separate_heading_asserted": false,
+  "disclosed_uses": [
+    "English editing",
+    "manuscript revision",
+    "analysis-code development and debugging",
+    "figure and interface layout"
+  ],
+  "author_responsibility_stated": true
+}

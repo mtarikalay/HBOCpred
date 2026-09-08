@@ -1,0 +1,30 @@
+{
+  "checked_date": "2026-09-06",
+  "method": "LibreOffice PDF render; every page inspected as a full PNG; no clipping, overlap or broken tables observed.",
+  "documents": [
+    {
+      "file": "HBOCpred_IJMS_Reviewer1_Round2_clean.docx",
+      "pages": 25,
+      "all_pages_visually_reviewed": true,
+      "sha256": "33118d46fdf5fa46b8c93c42f68c959a76672d1422016a488197eba665035aa3"
+    },
+    {
+      "file": "HBOCpred_IJMS_Reviewer1_Round2_highlighted.docx",
+      "pages": 25,
+      "all_pages_visually_reviewed": true,
+      "sha256": "813690fbc488312d713901c9039f6bae7b4b101b7864d694578e476dd1f83389"
+    },
+    {
+      "file": "HBOCpred_Response_Reviewer1_Round2.docx",
+      "pages": 7,
+      "all_pages_visually_reviewed": true,
+      "sha256": "6e15d70f946ae38881704a4d6765e6883936ed2a38f49cac9ad0dfd0ca83181c"
+    },
+    {
+      "file": "HBOCpred_Supplementary_Audits_TRIPODAI.docx",
+      "pages": 4,
+      "all_pages_visually_reviewed": true,
+      "sha256": "dc3634e941af3bbd6e2a6a782ac76c6ff84934c7191f9fb3aff94baef6b49453"
+    }
+  ]
+}

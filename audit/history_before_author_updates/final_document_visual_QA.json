@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-06",
+  "method": "LibreOffice PDF rendering and original-resolution inspection of every page",
+  "documents": [
+    {
+      "file": "documentation/HBOCpred_IJMS_Reviewer1_Round2_clean.docx",
+      "sha256": "b656a2a11e2519efa74b81d8d2c495410c2b02d75b6966fbdfaa6c3b70508b6c",
+      "pages": 26,
+      "all_pages_visually_inspected": true,
+      "clipping_overlap_missing_figures": false
+    },
+    {
+      "file": "documentation/HBOCpred_IJMS_Reviewer1_Round2_highlighted.docx",
+      "sha256": "e9ed8192957f5772b920f90e72719780cef836a8bc45d5f2886561f9a4f4e69f",
+      "pages": 26,
+      "all_pages_visually_inspected": true,
+      "clipping_overlap_missing_figures": false
+    },
+    {
+      "file": "documentation/HBOCpred_Response_Reviewer1_Round2.docx",
+      "sha256": "189181329caa0fc0b2840e968dfa4d40a0bf4c00a588ce9fe0016bc1efbf1bdb",
+      "pages": 7,
+      "all_pages_visually_inspected": true,
+      "clipping_overlap_missing_figures": false
+    },
+    {
+      "file": "documentation/HBOCpred_Supplementary_Audits_TRIPODAI.docx",
+      "sha256": "76eda7e1bbce963ee93e5803ef3a5b8e9848aa6d00099ea320ab4a5cb6ea47a8",
+      "pages": 4,
+      "all_pages_visually_inspected": true,
+      "clipping_overlap_missing_figures": false
+    }
+  ],
+  "fixes_verified": [
+    "Shiny Figure 7 centred and fully visible",
+    "Native Word equation subscripts and fractions legible",
+    "Table 1 header fits",
+    "Clean manuscript contains no revision highlights or yellow table shading",
+    "Figure and table numbering and prose references follow first appearance"
+  ],
+  "remaining_submission_items": "See documentation/SON_KONTROL_TR.md",
+  "clean_highlighted_rendered_text_identical": true
+}

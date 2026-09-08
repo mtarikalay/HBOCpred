@@ -1,0 +1,10 @@
+{
+  "saved_partition_models_replayed": 58,
+  "application_records_replayed": 43679,
+  "maximum_numeric_replay_difference": 1.1102230246251565e-16,
+  "original_reference_count": 35,
+  "manuscript_fields_checked_separately": true,
+  "fold_isolation": "PASS",
+  "gene_holdout_isolation": "PASS",
+  "completeness_suppression": "PASS"
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-07",
+  "documents": [
+    {
+      "file": "HBOCpred_IJMS_Reviewer1_Round2_clean.docx",
+      "changed_ooxml_parts": [
+        "word/document.xml"
+      ],
+      "fields": 27,
+      "modified_citation_instructions": 5,
+      "sha256": "5048cb2d6e2ab5cba2d1e1a3c005f519c6c716538bb00598abc1658f0215b97d"
+    },
+    {
+      "file": "HBOCpred_IJMS_Reviewer1_Round2_highlighted.docx",
+      "changed_ooxml_parts": [
+        "word/document.xml"
+      ],
+      "fields": 27,
+      "modified_citation_instructions": 5,
+      "sha256": "f02890c9eba1996f891a7c0877942253f98f79e3a2712c6fb0db9f51d71a6b46"
+    },
+    {
+      "file": "HBOCpred_Response_Reviewer1_Round2.docx",
+      "changed_ooxml_parts": [
+        "word/document.xml"
+      ],
+      "fields": 0,
+      "modified_citation_instructions": 0,
+      "sha256": "12cab1e4638eb03569c277f954ba255af4fde04477884ea8d0f008bacc7cd25f"
+    },
+    {
+      "file": "HBOCpred_Supplementary_Audits_TRIPODAI.docx",
+      "changed_ooxml_parts": [
+        "word/document.xml"
+      ],
+      "fields": 0,
+      "modified_citation_instructions": 0,
+      "sha256": "fa8ed160e7b041dcb27b4f1af710074010db52ddcceed22ec2af69f9167ee3ca"
+    }
+  ],
+  "clean_highlighted_rendered_text_identical": true,
+  "Mendeley_desktop_refresh_tested": false,
+  "reference_19_only_keep_lines_layout_change": true,
+  "bibliography_end_field_retained": true,
+  "final_spacer_paragraphs_compressed_without_removing_fields": true
+}

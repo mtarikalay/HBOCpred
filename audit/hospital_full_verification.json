@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "source_rows": 122,
+  "out_of_scope_source_rows": 75,
+  "in_scope_source_rows": 47,
+  "source_coding_protein_groups_in_scope": 33,
+  "resolved_source_rows": 47,
+  "unresolved_or_ambiguous_source_rows": 0,
+  "unique_in_scope_genomic_variants": 31,
+  "record_origins": {
+    "Anchor": 22,
+    "Catalogue": 8,
+    "Archive": 1
+  },
+  "scored_variants": 31,
+  "incomplete_variants": 0,
+  "V_counts": {
+    "0.0": 3,
+    "1.0": 1,
+    "3.0": 2,
+    "4.0": 25
+  },
+  "catalogue_max_score_difference": 1.1102230246251565e-16,
+  "all_source_rows_retained": true,
+  "new_fits": 0,
+  "clinical_reference_labels_adjudicated": 0,
+  "independent_external_performance_estimates": 0,
+  "input_sha256": {
+    "audit/hospital_source_curation.csv": "24c85693b06ffd1413a8ca11f0fa9f1b43d445cb159d175e2c44200edcf277b2",
+    "models/deployment.joblib": "24f2cccb450aefec1644a53119566c37468db0d21c2710dbb36fc61801a56a3a",
+    "data/hospital_additional_training_numeric.csv": "ea3537e12d2a32d9223538cef545eca920b6b84a8a895dbd9766ab2b6f65db1c",
+    "audit/cache/hospital_additional_transcripts.json.gz": "afea1dac8ae5f08fdf7f73cb9d3969c59b2149d5bcd3f42926bfe36b0b433a73"
+  }
+}

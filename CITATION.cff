@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite the manuscript and this computational release after its persistent identifier has been assigned."
+title: "HBOCpred: an ensemble framework for prioritisation of germline missense variants in hereditary breast and ovarian cancer"
+authors:
+  - family-names: Alay
+    given-names: Mustafa Tarık
+  - family-names: Erdem
+    given-names: Haktan Bağış
+version: "R4-audited-reanalysis"
+date-released: "2026-09-05"
+license: MIT
+repository-code: "https://github.com/mtarikalay/HBOCpred"

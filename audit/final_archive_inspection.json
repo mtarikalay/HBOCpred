@@ -1,0 +1,19 @@
+{
+  "checked_date": "2026-09-07",
+  "baseline_archive_sha256": "b60ee4b02b8b7012b0a7e2854abece7b858f9364eaddf6e610c13e65795166fb",
+  "unchanged_numeric_data_model_files": 213,
+  "nonempty_fitted_objects": 58,
+  "model_replay_executed_in_this_document_update": false,
+  "previous_full_replay_evidence": "audit/model_verification.json",
+  "maximum_previous_probability_replay_difference": 1.1102230246251565e-16,
+  "gnomAD_candidate_records": 50,
+  "full_training_overlap": 47,
+  "additional_unresolved_overlap": 1,
+  "independent_scored_gnomAD_candidates": 0,
+  "clinical_validation": "NOT ESTABLISHED",
+  "Shiny_source_release": "R4.4",
+  "Shiny_live_test": "AUTHOR_REPORTED_20260907",
+  "GitHub_upload_this_turn": false,
+  "persistent_DOI_deposition": "NOT PERFORMED",
+  "packaging_integrity": "SHA256SUMS covers release files; ZIP and bundle verification recorded with delivery inventory outside archive"
+}

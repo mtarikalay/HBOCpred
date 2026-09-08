@@ -1,0 +1,14 @@
+{
+  "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/5591/",
+  "accession": "VCV000005591.136",
+  "accessed": "2026-09-06",
+  "SPDI": "NC_000022.11:28725098:A:G",
+  "aliases": [
+    "NM_007194.4:c.470T>C",
+    "NP_009125.1:p.Ile157Thr",
+    "NM_001005735.3:c.599T>C",
+    "NP_001005735.1:p.Ile200Thr"
+  ],
+  "rsID": "rs17879961",
+  "use": "Allele identity only; not an independent clinical reference label"
+}

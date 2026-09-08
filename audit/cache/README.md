@@ -1,0 +1,1 @@
+Snapshots from the 2026-09-05 Ensembl and gnomAD audit. gnomAD query metadata includes exact retrieval timestamps and dataset name. Ensembl snapshots retain query inputs and transcript consequences; colocated clinical assertions have been omitted. The supplied historical annotation release was not recoverable and is not inferred from these contemporary queries.

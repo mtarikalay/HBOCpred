@@ -1,0 +1,827 @@
+{
+  "date": "2026-09-07",
+  "reference_count": 35,
+  "citation_fields": 26,
+  "bibliography_fields": 1,
+  "uncorrected_citation_fields_byte_identical": true,
+  "citation_bearing_narrative_text_unchanged": true,
+  "all_tables_byte_identical": true,
+  "mendeley_desktop_database_accessed": false,
+  "ref17_identity": "DOI URI replaces the unrelated Alport UUID; relink to the imported Richards record in Mendeley Desktop before refreshing.",
+  "changes": [
+    {
+      "reference": 6,
+      "field_index": 3,
+      "before": {
+        "id": "ITEM-1",
+        "itemData": {
+          "DOI": "10.1056/NEJMoa1913948",
+          "container-title": "New England Journal of Medicine",
+          "id": "ITEM-1",
+          "issue": "5",
+          "issued": {
+            "date-parts": [
+              [
+                "2021",
+                "2",
+                "3"
+              ]
+            ]
+          },
+          "note": "doi: 10.1056/NEJMoa1913948",
+          "page": "428-439",
+          "publisher": "Massachusetts Medical Society",
+          "title": "Breast Cancer Risk Genes — Association Analysis in More than 113,000 Women",
+          "type": "article-journal",
+          "volume": "384"
+        },
+        "uris": [
+          "http://www.mendeley.com/documents/?uuid=7f482477-0373-496c-b5ef-51c9a9dada7b"
+        ]
+      },
+      "after": {
+        "id": "ITEM-1",
+        "itemData": {
+          "DOI": "10.1056/NEJMoa1913948",
+          "title": "Breast Cancer Risk Genes — Association Analysis in More than 113,000 Women",
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                2,
+                4
+              ]
+            ]
+          },
+          "author": [
+            {
+              "literal": "Breast Cancer Association Consortium"
+            }
+          ],
+          "type": "article-journal",
+          "URL": "https://doi.org/10.1056/nejmoa1913948",
+          "page": "428-439",
+          "volume": "384",
+          "issue": "5",
+          "publisher": "Massachusetts Medical Society",
+          "container-title": "New England Journal of Medicine",
+          "id": "ITEM-1"
+        },
+        "uris": [
+          "http://www.mendeley.com/documents/?uuid=7f482477-0373-496c-b5ef-51c9a9dada7b"
+        ]
+      }
+    },
+    {
+      "reference": 16,
+      "field_index": 9,
+      "before": {
+        "id": "ITEM-4",
+        "itemData": {
+          "author": [
+            {
+              "dropping-particle": "",
+              "family": "Düzenli",
+              "given": "Tarık",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Babazade",
+              "given": "Ali",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Vural",
+              "given": "Ozan",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Bahap",
+              "given": "Yusuf",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Ergün",
+              "given": "Mehmet Ali",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            }
+          ],
+          "id": "ITEM-4",
+          "issued": {
+            "date-parts": [
+              [
+                "2026"
+              ]
+            ]
+          },
+          "title": "HECTOR : A Web-Based Tool for Automated BRCA1 / BRCA2 Variant Classification Under the ClinGen ENIGMA Specifications",
+          "type": "article-journal"
+        },
+        "uris": [
+          "http://www.mendeley.com/documents/?uuid=66a76f64-9827-4226-b808-69d9dad26046"
+        ]
+      },
+      "after": {
+        "id": "ITEM-4",
+        "itemData": {
+          "DOI": "10.64898/2026.07.06.26357220",
+          "title": "HECTOR: A Web-Based Tool for Automated BRCA1/BRCA2 Variant Classification Under the ClinGen ENIGMA Specifications",
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                10
+              ]
+            ]
+          },
+          "author": [
+            {
+              "given": "Tarık",
+              "family": "Düzenli"
+            },
+            {
+              "given": "Ali",
+              "family": "Babazade"
+            },
+            {
+              "given": "Ozan",
+              "family": "Vural"
+            },
+            {
+              "given": "Yusuf",
+              "family": "Bahap"
+            },
+            {
+              "given": "Mehmet Ali",
+              "family": "Ergün"
+            }
+          ],
+          "type": "article",
+          "URL": "https://doi.org/10.64898/2026.07.06.26357220",
+          "publisher": "openRxiv",
+          "container-title": "medRxiv",
+          "genre": "Preprint",
+          "note": "Preprint; posted 10 July 2026. Not a peer-reviewed journal article.",
+          "id": "ITEM-4"
+        },
+        "uris": [
+          "http://www.mendeley.com/documents/?uuid=66a76f64-9827-4226-b808-69d9dad26046"
+        ]
+      }
+    },
+    {
+      "reference": 17,
+      "field_index": 10,
+      "before": {
+        "id": "ITEM-1",
+        "itemData": {
+          "DOI": "10.1038/s41431-021-00858-1",
+          "ISSN": "1476-5438 (Electronic)",
+          "PMID": "33854215",
+          "abstract": "The recent Chandos House meeting of the Alport Variant Collaborative extended the  indications for screening for pathogenic variants in the COL4A5, COL4A3 and COL4A4 genes beyond the classical Alport phenotype (haematuria, renal failure; family history of haematuria or renal failure) to include persistent proteinuria, steroid-resistant nephrotic syndrome, focal and segmental glomerulosclerosis (FSGS), familial IgA glomerulonephritis and end-stage kidney failure without an obvious cause. The meeting refined the ACMG criteria for variant assessment for the Alport genes (COL4A3-5). It identified 'mutational hotspots' (PM1) in the collagen IV α5, α3 and α4 chains including position 1 Glycine residues in the Gly-X-Y repeats in the intermediate collagenous domains; and Cysteine residues in the carboxy non-collagenous domain (PP3). It considered that 'well-established' functional assays (PS3, BS3) were still mainly research tools but sequencing and minigene assays were commonly used to confirm splicing variants. It was not possible to define the Minor Allele Frequency (MAF) threshold above which variants were considered Benign (BA1, BS1), because of the different modes of inheritances of Alport syndrome, and the occurrence of hypomorphic variants (often Glycine adjacent to a non-collagenous interruption) and local founder effects. Heterozygous COL4A3 and COL4A4 variants were common 'incidental' findings also present in normal reference databases. The recognition and interpretation of hypomorphic variants in the COL4A3-COL4A5 genes remains a challenge.",
+          "author": [
+            {
+              "dropping-particle": "",
+              "family": "Savige",
+              "given": "Judy",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Storey",
+              "given": "Helen",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Watson",
+              "given": "Elizabeth",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Hertz",
+              "given": "Jens Michael",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Deltas",
+              "given": "Constantinos",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Renieri",
+              "given": "Alessandra",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Mari",
+              "given": "Francesca",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Hilbert",
+              "given": "Pascale",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Plevova",
+              "given": "Pavlina",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Byers",
+              "given": "Peter",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Cerkauskaite",
+              "given": "Agne",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Gregory",
+              "given": "Martin",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Cerkauskiene",
+              "given": "Rimante",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Ljubanovic",
+              "given": "Danica Galesic",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Becherucci",
+              "given": "Francesca",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Errichiello",
+              "given": "Carmela",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Massella",
+              "given": "Laura",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Aiello",
+              "given": "Valeria",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Lennon",
+              "given": "Rachel",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Hopkinson",
+              "given": "Louise",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Koziell",
+              "given": "Ania",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Lungu",
+              "given": "Adrian",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Rothe",
+              "given": "Hansjorg Martin",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Hoefele",
+              "given": "Julia",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Zacchia",
+              "given": "Miriam",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Martic",
+              "given": "Tamara Nikuseva",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Gupta",
+              "given": "Asheeta",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Eerde",
+              "given": "Albertien",
+              "non-dropping-particle": "van",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Gear",
+              "given": "Susie",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Landini",
+              "given": "Samuela",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Palazzo",
+              "given": "Viviana",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Al-Rabadi",
+              "given": "Laith",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Claes",
+              "given": "Kathleen",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Corveleyn",
+              "given": "Anniek",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Hoof",
+              "given": "Evelien",
+              "non-dropping-particle": "Van",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Geel",
+              "given": "Micheel",
+              "non-dropping-particle": "van",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Williams",
+              "given": "Maggie",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Ashton",
+              "given": "Emma",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Belge",
+              "given": "Hendica",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Ars",
+              "given": "Elisabeth",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Bierzynska",
+              "given": "Agnieszka",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Gangemi",
+              "given": "Concetta",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Lipska-Ziętkiewicz",
+              "given": "Beata S",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            }
+          ],
+          "container-title": "European journal of human genetics : EJHG",
+          "id": "ITEM-1",
+          "issue": "8",
+          "issued": {
+            "date-parts": [
+              [
+                "2021",
+                "8"
+              ]
+            ]
+          },
+          "language": "eng",
+          "page": "1186-1197",
+          "publisher-place": "England",
+          "title": "Consensus statement on standards and guidelines for the molecular diagnostics of  Alport syndrome: refining the ACMG criteria.",
+          "type": "article-journal",
+          "volume": "29"
+        },
+        "uris": [
+          "http://www.mendeley.com/documents/?uuid=fc62bb53-b636-4b3e-af1c-4a5b1846d05b"
+        ]
+      },
+      "after": {
+        "id": "ITEM-1",
+        "itemData": {
+          "DOI": "10.1038/gim.2015.30",
+          "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+          "issued": {
+            "date-parts": [
+              [
+                2015,
+                5
+              ]
+            ]
+          },
+          "author": [
+            {
+              "given": "Sue",
+              "family": "Richards"
+            },
+            {
+              "given": "Nazneen",
+              "family": "Aziz"
+            },
+            {
+              "given": "Sherri",
+              "family": "Bale"
+            },
+            {
+              "given": "David",
+              "family": "Bick"
+            },
+            {
+              "given": "Soma",
+              "family": "Das"
+            },
+            {
+              "given": "Julie",
+              "family": "Gastier-Foster"
+            },
+            {
+              "given": "Wayne W.",
+              "family": "Grody"
+            },
+            {
+              "given": "Madhuri",
+              "family": "Hegde"
+            },
+            {
+              "given": "Elaine",
+              "family": "Lyon"
+            },
+            {
+              "given": "Elaine",
+              "family": "Spector"
+            },
+            {
+              "given": "Karl",
+              "family": "Voelkerding"
+            },
+            {
+              "given": "Heidi L.",
+              "family": "Rehm"
+            }
+          ],
+          "type": "article-journal",
+          "URL": "https://doi.org/10.1038/gim.2015.30",
+          "page": "405-424",
+          "volume": "17",
+          "issue": "5",
+          "publisher": "Elsevier BV",
+          "container-title": "Genetics in Medicine",
+          "PMID": "25741868",
+          "PMCID": "PMC4544753",
+          "id": "ITEM-1"
+        },
+        "uris": [
+          "https://doi.org/10.1038/gim.2015.30"
+        ]
+      }
+    },
+    {
+      "reference": 23,
+      "field_index": 13,
+      "before": {
+        "id": "ITEM-2",
+        "itemData": {
+          "DOI": "10.59537/saupress.2415",
+          "author": [
+            {
+              "dropping-particle": "",
+              "family": "Alay",
+              "given": "Mustafa Tarık",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            }
+          ],
+          "container-title": "Digital Healtcare Technologies -Innovative Technologies and Changing ProcesessChanging Procesess",
+          "id": "ITEM-2",
+          "issued": {
+            "date-parts": [
+              [
+                "2025"
+              ]
+            ]
+          },
+          "page": "147-160",
+          "title": "Integrative Classifiers for Variant Interpretation: Supervised Votes Meet Unsupervised Cluster Dominance",
+          "type": "article-journal"
+        },
+        "uris": [
+          "http://www.mendeley.com/documents/?uuid=f882936b-b3ac-4924-bd3c-63daa78a02b3"
+        ]
+      },
+      "after": {
+        "id": "ITEM-2",
+        "itemData": {
+          "DOI": "10.59537/saupress.2415",
+          "title": "Integrative Classifiers for Variant Interpretation: Supervised Votes Meet Unsupervised Cluster Dominance",
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "author": [
+            {
+              "given": "Mustafa Tarık",
+              "family": "Alay"
+            }
+          ],
+          "type": "chapter",
+          "URL": "https://doi.org/10.59537/saupress.2415",
+          "publisher": "Sakarya University Press",
+          "container-title": "Digital Healthcare Technologies—Innovative Technologies and Changing Processes",
+          "publisher-place": "Sakarya, Türkiye",
+          "page": "147-160",
+          "ISBN": "9786052238769",
+          "editor": [
+            {
+              "given": "Murat",
+              "family": "Kirişci"
+            },
+            {
+              "given": "Mahmut",
+              "family": "Akyiğit"
+            },
+            {
+              "given": "Emrah Evren",
+              "family": "Kara"
+            },
+            {
+              "given": "Necip",
+              "family": "Şimşek"
+            }
+          ],
+          "id": "ITEM-2"
+        },
+        "uris": [
+          "http://www.mendeley.com/documents/?uuid=f882936b-b3ac-4924-bd3c-63daa78a02b3"
+        ]
+      }
+    },
+    {
+      "reference": 33,
+      "field_index": 23,
+      "before": {
+        "id": "ITEM-1",
+        "itemData": {
+          "DOI": "10.38016/jista.1501164",
+          "ISSN": "2651-3927",
+          "abstract": "Amaç: MEFV geninde bilinen sınırlı sayıda patojenik varyant bulunmaktadır. İn siliko araçlar, birçok MEFV gen varyantını sınıflandıramamaktadır. Bu nedenle, yeni yaklaşımların uygulanması gerekmektedir. Sert oylama sınıflandırıcıları ve sağlam doğrulama teknikleri sınıflandırma için kullanılabilir; ancak çift sayı sınıflandırması doğru bir şekilde yapılamamaktadır. Amacımız, hem çift sayı sınıflandırma sorununu çözmek hem de küçük veri setleri kullanarak MEFV gen varyantı tahmin doğruluğunu artırmak için yeni bir strateji geliştirmektir.Yöntem: İlk olarak model için optimal sayıda hesaplama aracını belirledik. Daha sonra, belirlenen araçlar kullanılarak MEFV gen varyantlarını içeren eğitim veri setinde sekiz farklı makine öğrenme algoritması uygulandı. Eğitim ve doğrulama veri setinin kullanımıyla, modifiye edilmiş sert oylama makine öğrenme algoritmalarının uygulanmasına başlandı. Bundan sonra, tahmin sonuçları ile mevcut algoritmalar ve çalışmalar arasında karşılaştırmalı bir analiz gerçekleştirildi. Son olarak, gen ve protein düzeyinde değerlendirme yapılarak hotspot bölgeler belirlendi.Bulgular: Topluluk sınıflandırıcısı, ortalama ROC AUC puanlarının %88 olduğunu gösterdi ve modifiye edilmiş sert oylama sınıflandırıcı yöntemi ile bilinen tüm varyantları %82 doğrulukla sınıflandırdı. Bu oran, hem yumuşak (%75) hem de sert oylama sınıflandırıcı (%70) yöntemlerinden daha yüksektir. Tüm varyantların kolektif değerlendirilmesi, LP varyantlarının, LB varyantlarına göre alanlarda yaklaşık 2,5 kat daha yaygın olduğunu ortaya koymuştur (χ2:13.574, p  &amp;lt; 0.001, OR: 2.509 [1.532-4.132]).Sonuç: MEFV gen mutasyonlarının klinik sonuçlarıyla ilgili bilgi yetersizliği göz önüne alındığında, modifiye edilmiş sert oylama sınıflandırıcı yaklaşımını kullanmak, hesaplama araçlarının sınıflandırma doğruluğunu artırmak için küçük örneklemlerde makul bir yöntem olabilir.\nCR  - Accetturo, M. et al. (2020) ‘Improvement of MEFV gene variants classification to aid treatment decision making in familial Mediterranean fever.’, Rheumatology (Oxford, England), 59(4), pp. 754–761. Available at: https://doi.org/10.1093/rheumatology/kez332.\nCR  - Accetturo, M., Bartolomeo, N. and Stella, A. (2020) ‘In-silico Analysis of NF1 Missense Variants in ClinVar: Translating Variant Predictions into Variant Interpretation and Classification.’, International journal of molecular sciences, 21(3). Available at: https://doi.org/10.3390/ijms21030721.\nCR  - Acharjee, A. et al. (2020) ‘A random …",
+          "author": [
+            {
+              "dropping-particle": "",
+              "family": "Alay",
+              "given": "Tarık",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Demir",
+              "given": "İbrahim",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            },
+            {
+              "dropping-particle": "",
+              "family": "Kirisci",
+              "given": "Murat",
+              "non-dropping-particle": "",
+              "parse-names": false,
+              "suffix": ""
+            }
+          ],
+          "container-title": "Journal of Intelligent Systems: Theory and Applications",
+          "id": "ITEM-1",
+          "issue": "1",
+          "issued": {
+            "date-parts": [
+              [
+                "2025"
+              ]
+            ]
+          },
+          "language": "en",
+          "page": "35-46",
+          "publisher": "Özer UYGUN WT  - DergiPark",
+          "title": "Modified Hard Voting Classifier Implementation on MEFV Gene Variants Increases in Silico Tool Performance: A Novel Approach for Small Sample Size TT  - MEFY Gen Varyantlarında Modifiye Edilmiş Sert Oylama Sınıflandırıcısı Uygulaması, In-Silico Araç Perfor",
+          "type": "article-journal",
+          "volume": "8"
+        },
+        "uris": [
+          "http://www.mendeley.com/documents/?uuid=82d8d014-019d-499a-9daa-bb82c1150292"
+        ]
+      },
+      "after": {
+        "id": "ITEM-1",
+        "itemData": {
+          "type": "article-journal",
+          "DOI": "10.38016/jista.1501164",
+          "title": "Modified Hard Voting Classifier Implementation on MEFV Gene Variants Increases in Silico Tool Performance: A Novel Approach for Small Sample Size",
+          "author": [
+            {
+              "given": "Tarık",
+              "family": "Alay"
+            },
+            {
+              "given": "İbrahim",
+              "family": "Demir"
+            },
+            {
+              "given": "Murat",
+              "family": "Kirisci"
+            }
+          ],
+          "container-title": "Journal of Intelligent Systems: Theory and Applications",
+          "volume": "8",
+          "issue": "1",
+          "page": "35-46",
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "ISSN": "2651-3927",
+          "URL": "https://dergipark.org.tr/en/pub/jista/article/1501164",
+          "id": "ITEM-1"
+        },
+        "uris": [
+          "http://www.mendeley.com/documents/?uuid=82d8d014-019d-499a-9daa-bb82c1150292"
+        ]
+      }
+    }
+  ],
+  "other_30_reference_texts_unchanged": true,
+  "reference_19_layout_only": "keepLines added"
+}

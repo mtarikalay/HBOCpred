@@ -1,0 +1,28 @@
+item,topic,location,coverage_and_gap
+1–2,Title and abstract,Title; Abstract,"Model, target, outputs, evaluability and internal scope stated."
+3a–c,Context and users,Introduction; Discussion,Research-curator use specified; ancestry/demographic representativeness unavailable.
+4,Objectives,Introduction final paragraph; 4.1,Development and internal evaluation; clinical validation withdrawn.
+5a–b,Source data and dates,4.1–4.3; input_manifest.json; audit/cache,Source archives hashed; 2026-09-05 audit snapshots retained. Historical source release dates unavailable.
+6a–c,Eligibility and setting,4.1–4.2; Table 6,Variant-level scope; historical transcript discrepancies declared; treatment/follow-up not applicable.
+7,Preparation,4.3; prepare_inputs.py,"Numeric parsing, semantic reduction and partition-specific preprocessing documented."
+8a–c,Reference labels,4.2; Discussion; source metadata,Processed y distinguished from embedded ClinVar labels. Independent blinded outcome adjudication unavailable.
+9a–c,Predictors,4.3; Table 1; data dictionary,47 primary candidates and 25 deployment predictors supplied. Upstream training provenance remains incomplete.
+10,Sample size,"4.1; Tables 3, 4 and 6",All available source anchors used; no formal prospective calculation; small gene strata acknowledged.
+11,Missingness,2.2; 4.2–4.3; output flags,Median imputation and identical completeness suppression; all denominators retained.
+12a–g,Analysis design,4.4–4.9; scripts; fold maps,"Nested fitting, tuning, calibration, thresholding, metrics and sensitivity analyses explicit."
+13,Class balance,4.1; fitted learner settings,No class resampling or class-weight adjustment; class counts and calibration reported.
+14,Fairness,Discussion; data dictionary,Ancestry-specific and demographic fairness not estimable from these source data.
+15,Outputs,4.2 and 4.6; Table 3,Shared vote descriptors; retrospective convention; S_MAC ranking; completeness guard.
+16,Population differences,2.7; 4.8; Figure 6,"Predictor shift, disagreement shift, gene information and absent application outcomes documented."
+17,Ethics,Ethics and consent statements,Source hospital approval retained; no new external clinical outcome analysis.
+18a–b,Funding and interests,Acknowledgments; conflicts statement,Conflict declaration retained. Funding declaration requires author completion.
+18c–d,Protocol and registration,4.1; executed_protocol.md,Revision-stage reanalysis not prospectively registered; executed protocol and deviations supplied.
+18e–f,Data and code access,Availability statements; release archive,"Matrices, folds, outputs, models and scripts included. Persistent DOI and reviewer access still pending."
+19,Public involvement,Author declaration needed,No documented patient/public involvement record was supplied; authors must confirm the statement.
+20a–c,Cohort accounting,"Tables 3 and 6; Figures 2, 6 and 8","Source and evaluable counts, application population and missingness distinguished; clinical demographics unavailable."
+21,Analysis denominators,Tables 3 and 4; per-gene tables; fit audits,"Training and held-out identities, class counts and incomplete flags provided per analysis."
+22,Complete model,Table 2; models/deployment.joblib,"Preprocessors, parameters, calibrators, thresholds and scoring code supplied; persistent access pending."
+23a–b,Performance and variation,"2.2–2.7; Figures 1, 2, 3, 4, 5 and 6; Tables S1–S2","Repeat SDs, per-gene Wilson intervals and conditional fixed-score intervals. No prospective or transport intervals."
+24,Model revision,2.1; README; executed_protocol.md,New fits supersede prior numerical estimates; old missing fits are not reconstructed or claimed verified.
+25–26,Interpretation and limits,Discussion,"Source-label dependence, gene confounding, shift, cost asymmetry, missingness and transcript limits connected."
+27a–c,Use and next evaluation,Discussion; 4.2; viewer notes,Expert research use; verify build/transcript; incomplete suppression; independent evidence and clinical utility evaluation remain necessary.

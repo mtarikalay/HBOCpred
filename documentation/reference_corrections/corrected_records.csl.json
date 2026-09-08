@@ -1,0 +1,213 @@
+{
+  "6": {
+    "DOI": "10.1056/NEJMoa1913948",
+    "title": "Breast Cancer Risk Genes — Association Analysis in More than 113,000 Women",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          4
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "Breast Cancer Association Consortium"
+      }
+    ],
+    "type": "article-journal",
+    "URL": "https://doi.org/10.1056/nejmoa1913948",
+    "page": "428-439",
+    "volume": "384",
+    "issue": "5",
+    "publisher": "Massachusetts Medical Society",
+    "container-title": "New England Journal of Medicine"
+  },
+  "16": {
+    "DOI": "10.64898/2026.07.06.26357220",
+    "title": "HECTOR: A Web-Based Tool for Automated BRCA1/BRCA2 Variant Classification Under the ClinGen ENIGMA Specifications",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          10
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Tarık",
+        "family": "Düzenli"
+      },
+      {
+        "given": "Ali",
+        "family": "Babazade"
+      },
+      {
+        "given": "Ozan",
+        "family": "Vural"
+      },
+      {
+        "given": "Yusuf",
+        "family": "Bahap"
+      },
+      {
+        "given": "Mehmet Ali",
+        "family": "Ergün"
+      }
+    ],
+    "type": "article",
+    "URL": "https://doi.org/10.64898/2026.07.06.26357220",
+    "publisher": "openRxiv",
+    "container-title": "medRxiv",
+    "genre": "Preprint",
+    "note": "Preprint; posted 10 July 2026. Not a peer-reviewed journal article."
+  },
+  "17": {
+    "DOI": "10.1038/gim.2015.30",
+    "title": "Standards and guidelines for the interpretation of sequence variants: a joint consensus recommendation of the American College of Medical Genetics and Genomics and the Association for Molecular Pathology",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Sue",
+        "family": "Richards"
+      },
+      {
+        "given": "Nazneen",
+        "family": "Aziz"
+      },
+      {
+        "given": "Sherri",
+        "family": "Bale"
+      },
+      {
+        "given": "David",
+        "family": "Bick"
+      },
+      {
+        "given": "Soma",
+        "family": "Das"
+      },
+      {
+        "given": "Julie",
+        "family": "Gastier-Foster"
+      },
+      {
+        "given": "Wayne W.",
+        "family": "Grody"
+      },
+      {
+        "given": "Madhuri",
+        "family": "Hegde"
+      },
+      {
+        "given": "Elaine",
+        "family": "Lyon"
+      },
+      {
+        "given": "Elaine",
+        "family": "Spector"
+      },
+      {
+        "given": "Karl",
+        "family": "Voelkerding"
+      },
+      {
+        "given": "Heidi L.",
+        "family": "Rehm"
+      }
+    ],
+    "type": "article-journal",
+    "URL": "https://doi.org/10.1038/gim.2015.30",
+    "page": "405-424",
+    "volume": "17",
+    "issue": "5",
+    "publisher": "Elsevier BV",
+    "container-title": "Genetics in Medicine",
+    "PMID": "25741868",
+    "PMCID": "PMC4544753"
+  },
+  "23": {
+    "DOI": "10.59537/saupress.2415",
+    "title": "Integrative Classifiers for Variant Interpretation: Supervised Votes Meet Unsupervised Cluster Dominance",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Mustafa Tarık",
+        "family": "Alay"
+      }
+    ],
+    "type": "chapter",
+    "URL": "https://doi.org/10.59537/saupress.2415",
+    "publisher": "Sakarya University Press",
+    "container-title": "Digital Healthcare Technologies—Innovative Technologies and Changing Processes",
+    "publisher-place": "Sakarya, Türkiye",
+    "page": "147-160",
+    "ISBN": "9786052238769",
+    "editor": [
+      {
+        "given": "Murat",
+        "family": "Kirişci"
+      },
+      {
+        "given": "Mahmut",
+        "family": "Akyiğit"
+      },
+      {
+        "given": "Emrah Evren",
+        "family": "Kara"
+      },
+      {
+        "given": "Necip",
+        "family": "Şimşek"
+      }
+    ]
+  },
+  "33": {
+    "type": "article-journal",
+    "DOI": "10.38016/jista.1501164",
+    "title": "Modified Hard Voting Classifier Implementation on MEFV Gene Variants Increases in Silico Tool Performance: A Novel Approach for Small Sample Size",
+    "author": [
+      {
+        "given": "Tarık",
+        "family": "Alay"
+      },
+      {
+        "given": "İbrahim",
+        "family": "Demir"
+      },
+      {
+        "given": "Murat",
+        "family": "Kirisci"
+      }
+    ],
+    "container-title": "Journal of Intelligent Systems: Theory and Applications",
+    "volume": "8",
+    "issue": "1",
+    "page": "35-46",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "ISSN": "2651-3927",
+    "URL": "https://dergipark.org.tr/en/pub/jista/article/1501164"
+  }
+}

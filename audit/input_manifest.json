@@ -1,0 +1,18 @@
+{
+  "anchors": 2160,
+  "anchor_label_counts": {
+    "0": 1187,
+    "1": 973
+  },
+  "application": 43679,
+  "numeric_fields_before_aggregation": 97,
+  "numeric_after_aggregation": 90,
+  "semantic_candidates_including_reliability": 48,
+  "semantic_candidates_primary": 47,
+  "source_training_sha256": "2758b60147e2c8142231be3afeff60ab494eea8c6ed00e14450001d83bedc08e",
+  "source_vous_sha256": "227d66f14b548b74b92a999a36dbddb87986273209af8df99b6f835336c27120",
+  "anchor_application_exact_overlap": 0,
+  "application_MANE_SELECT_populated": 43679,
+  "parser": "first finite numeric token; no transcript-aware remapping inferred",
+  "missingness_selection": "none at matrix construction; applied within each training partition"
+}

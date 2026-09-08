@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-07",
+  "method": "All four documents rendered with LibreOffice. All changed body pages visually inspected. Remaining pages are pixel-identical, or their bodies below the header are pixel-identical, to the all-page original-resolution visual review recorded on 6 September. Updated page-number headers checked against PDF text.",
+  "documents": [
+    {
+      "file": "documentation/HBOCpred_IJMS_Reviewer1_Round2_clean.docx",
+      "sha256": "5048cb2d6e2ab5cba2d1e1a3c005f519c6c716538bb00598abc1658f0215b97d",
+      "pages": 25,
+      "rendered_pages_pixel_identical_to_20260906_full_visual_QA": [
+        1
+      ],
+      "body_pixel_identical_header_page_count_verified": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "changed_body_pages_visually_inspected": [
+        12,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "clipping_overlap_missing_figures": false
+    },
+    {
+      "file": "documentation/HBOCpred_IJMS_Reviewer1_Round2_highlighted.docx",
+      "sha256": "f02890c9eba1996f891a7c0877942253f98f79e3a2712c6fb0db9f51d71a6b46",
+      "pages": 25,
+      "rendered_pages_pixel_identical_to_20260906_full_visual_QA": [
+        1
+      ],
+      "body_pixel_identical_header_page_count_verified": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "changed_body_pages_visually_inspected": [
+        12,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "clipping_overlap_missing_figures": false
+    },
+    {
+      "file": "documentation/HBOCpred_Response_Reviewer1_Round2.docx",
+      "sha256": "12cab1e4638eb03569c277f954ba255af4fde04477884ea8d0f008bacc7cd25f",
+      "pages": 7,
+      "rendered_pages_pixel_identical_to_20260906_full_visual_QA": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "body_pixel_identical_header_page_count_verified": [],
+      "changed_body_pages_visually_inspected": [
+        6,
+        7
+      ],
+      "clipping_overlap_missing_figures": false
+    },
+    {
+      "file": "documentation/HBOCpred_Supplementary_Audits_TRIPODAI.docx",
+      "sha256": "fa8ed160e7b041dcb27b4f1af710074010db52ddcceed22ec2af69f9167ee3ca",
+      "pages": 4,
+      "rendered_pages_pixel_identical_to_20260906_full_visual_QA": [
+        1,
+        2
+      ],
+      "body_pixel_identical_header_page_count_verified": [],
+      "changed_body_pages_visually_inspected": [
+        3,
+        4
+      ],
+      "clipping_overlap_missing_figures": false
+    }
+  ],
+  "clean_highlighted_rendered_text_identical": true,
+  "remaining_submission_items": "documentation/SON_KONTROL_TR.md"
+}
