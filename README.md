@@ -2,6 +2,8 @@
 
 Research prioritisation of germline missense variants in 17 hereditary breast and ovarian cancer genes.
 
+[Online viewer](https://alaymd.shinyapps.io/hbocpred/)
+
 ## Use
 
 With Python 3.12, run from the repository folder:
