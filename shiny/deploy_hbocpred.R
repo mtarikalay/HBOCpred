@@ -20,7 +20,7 @@ hboc_preflight <- function(app_dir=.hboc_default) {
  message('Ready: Viewer ',meta$viewer_release,' / analysis ',meta$analysis_release,'; 43,679 records; ',length(files),' application files.')
  invisible(list(app_dir=app_dir,files=files,release=meta))
 }
-deploy_hbocpred <- function(app_dir=.hboc_default,check_only=FALSE,app_name='HBOCpred_Shiny_R4_4') {
+deploy_hbocpred <- function(app_dir=.hboc_default,check_only=FALSE,app_name='hbocpred') {
  ready <- hboc_preflight(app_dir)
  if(isTRUE(check_only)) return(invisible(ready))
  accounts <- rsconnect::accounts()
@@ -40,4 +40,4 @@ deploy_hbocpred <- function(app_dir=.hboc_default,check_only=FALSE,app_name='HBO
  message('Deployment command finished. Verify only Variant explorer and Model audit tabs are shown, with counts 43,679 / 33,414 / 4,491 / 5,774. The About this release tab and version badge have been removed.')
  invisible(app_id)
 }
-message('Loaded. Run deploy_hbocpred(check_only=TRUE) to verify locally, or deploy_hbocpred() to update alaymd/HBOCpred_Shiny_R4_4 (ID 17838814).')
+message('Loaded. Run deploy_hbocpred(check_only=TRUE) to verify locally, or deploy_hbocpred() to update https://alaymd.shinyapps.io/hbocpred/.')
